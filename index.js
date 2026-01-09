@@ -46,7 +46,7 @@ switch (task) {
     if (theMonth < 0x0 || 0x0 === theMonth && today.getDate() < birthday.getDate()) {
       age--;
     }
-
+    
     if (learnerAnswer === age) {
       console.log("Successful");
     }
